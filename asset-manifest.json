@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Lobe__Tour-clone/static/css/main.03c4dcd2.css",
+    "main.js": "/Lobe__Tour-clone/static/js/main.f889b247.js",
+    "static/media/logo.png": "/Lobe__Tour-clone/static/media/logo.3a41ffbec3098af3fcfe.png",
+    "index.html": "/Lobe__Tour-clone/index.html",
+    "main.03c4dcd2.css.map": "/Lobe__Tour-clone/static/css/main.03c4dcd2.css.map",
+    "main.f889b247.js.map": "/Lobe__Tour-clone/static/js/main.f889b247.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03c4dcd2.css",
+    "static/js/main.f889b247.js"
+  ]
+}
