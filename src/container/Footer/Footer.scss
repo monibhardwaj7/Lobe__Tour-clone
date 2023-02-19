@@ -1,0 +1,271 @@
+hr {
+  width: 75%;
+  margin: auto;
+
+  @media screen and (max-width: 1350px) {
+    width: 90%;
+  }
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 31.2px;
+  line-height: 1;
+  position: relative;
+  left: 33px;
+  color: #333;
+
+  @media screen and (max-width: 740px) {
+    margin-bottom: 25px;
+  }
+}
+
+.app__Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 4rem 0 5rem;
+}
+
+.app__AG {
+  display: flex;
+  flex-direction: row;
+
+  @media screen and (max-width: 740px) {
+    flex-direction: column;
+  }
+}
+.app__RI {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  @media screen and (max-width: 740px) {
+    flex-direction: column;
+  }
+}
+
+.app__copyright {
+  position: relative;
+  bottom: 21px;
+
+  margin-right: 50px;
+  flex-direction: column;
+
+  @media screen and (max-width: 995px) {
+    margin-right: 0;
+  }
+
+  @media screen and (max-width: 740px) {
+    display: none;
+    position: absolute;
+    top: 1600px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    position: relative;
+    right: 37px;
+  }
+
+  ul {
+    position: relative;
+    top: 15px;
+    list-style: none;
+
+    li {
+      font-size: 20px;
+      margin-bottom: 24px;
+      line-height: 1;
+
+      @media screen and (min-width: 1200px) and (max-width: 1700px) {
+        font-size: 16px;
+      }
+      @media screen and (max-width: 1200px) {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.app__About {
+  margin-right: 50px;
+  padding: 0 16px;
+
+  @media screen and (max-width: 995px) {
+    margin-right: 0;
+  }
+
+  @media screen and (max-width: 740px) {
+    position: relative;
+    right: 30px;
+  }
+
+  ul {
+    list-style: none;
+
+    @media screen and (max-width: 740px) {
+      text-align: center;
+      position: relative;
+      right: 22px;
+    }
+
+    li {
+      font-size: 20px;
+      margin-bottom: 24px;
+      line-height: 1;
+
+      @media screen and (min-width: 1200px) and (max-width: 1700px) {
+        font-size: 16px;
+      }
+      @media screen and (max-width: 1200px) {
+        font-size: 16px;
+      }
+      @media screen and (max-width: 740px) {
+        line-height: 0.8;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+}
+.app__General {
+  margin-right: 50px;
+  padding: 0 16px;
+
+  @media screen and (max-width: 995px) {
+    margin-right: 0;
+  }
+
+  @media screen and (max-width: 740px) {
+    position: relative;
+    right: 30px;
+    top: 80px;
+  }
+
+  ul {
+    list-style: none;
+
+    @media screen and (max-width: 740px) {
+      text-align: center;
+      position: relative;
+      right: 17px;
+    }
+
+    li {
+      font-size: 20px;
+      margin-bottom: 24px;
+      line-height: 1;
+
+      @media screen and (min-width: 1200px) and (max-width: 1700px) {
+        font-size: 16px;
+      }
+      @media screen and (max-width: 1200px) {
+        font-size: 16px;
+      }
+
+      @media screen and (max-width: 740px) {
+        line-height: 0.8;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+}
+.app__Resources {
+  margin-right: 50px;
+  padding: 0 16px;
+
+  @media screen and (max-width: 995px) {
+    margin-right: 0;
+  }
+
+  @media screen and (max-width: 740px) {
+    position: relative;
+    bottom: 19px;
+    right: 5px;
+  }
+
+  ul {
+    list-style: none;
+
+    @media screen and (max-width: 740px) {
+      text-align: center;
+      position: relative;
+      left: 8px;
+    }
+
+    li {
+      font-size: 20px;
+      margin-bottom: 24px;
+      line-height: 1;
+
+      @media screen and (min-width: 1200px) and (max-width: 1700px) {
+        font-size: 16px;
+      }
+      @media screen and (max-width: 1200px) {
+        font-size: 16px;
+      }
+      @media screen and (max-width: 740px) {
+        line-height: 0.8;
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+}
+
+.app__Icons {
+  position: relative;
+  bottom: 89px;
+
+  display: flex;
+  flex-direction: row;
+
+  @media screen and (max-width: 995px) {
+    position: relative;
+    bottom: 30px;
+
+    flex-direction: column;
+    margin-left: 35px;
+  }
+
+  @media screen and (max-width: 740px) {
+    position: relative;
+    right: 35px;
+    top: 53px;
+    left: -5px;
+  }
+
+  div {
+    margin: 0 0.5rem;
+    background-color: #04ddb2;
+    padding: 0.3rem;
+    border-radius: 50%;
+
+    @media screen and (max-width: 995px) {
+      margin: 0.5rem 0;
+      padding: 0.4rem;
+    }
+
+    svg {
+      color: #fff;
+      display: flex;
+      font-size: 20px;
+
+      @media screen and (max-width: 995px) {
+        font-size: 25px;
+      }
+    }
+  }
+}
